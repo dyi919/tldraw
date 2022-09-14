@@ -8,7 +8,7 @@ import {
   TLPointerEventHandler,
   TLShapeCloneHandler,
   Utils,
-} from '@tldraw/core'
+} from '@krapi0314/tldraw-core'
 import Vec from '@tldraw/vec'
 import { CLONING_DISTANCE, DEAD_ZONE } from '~constants'
 import { TLDR } from '~state/TLDR'

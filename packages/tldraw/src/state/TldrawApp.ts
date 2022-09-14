@@ -11,7 +11,7 @@ import {
   TLShapeCloneHandler,
   TLWheelEventHandler,
   Utils,
-} from '@tldraw/core'
+} from '@krapi0314/tldraw-core'
 import { Vec } from '@tldraw/vec'
 import {
   FIT_TO_SCREEN_PADDING,
@@ -1318,8 +1318,9 @@ export class TldrawApp extends StateManager<TDSnapshot> {
   /**
    * Load a fresh room into the state.
    * @param roomId
+   * @param userName
    */
-  loadRoom = (roomId: string): this => {
+  loadRoom = (roomId: string, userName: string): this => {
     this.patchState({
       room: {
         id: roomId,
@@ -1327,6 +1328,7 @@ export class TldrawApp extends StateManager<TDSnapshot> {
         users: {
           [uuid]: {
             id: uuid,
+            name: userName,
             color: USER_COLORS[Math.floor(Math.random() * USER_COLORS.length)],
             point: [100, 100],
             selectedIds: [],

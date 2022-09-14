@@ -1,4 +1,4 @@
-import { Renderer } from '@tldraw/core'
+import { Renderer } from '@krapi0314/tldraw-core'
 import * as React from 'react'
 import { ErrorBoundary as _Errorboundary } from 'react-error-boundary'
 import { IntlProvider } from 'react-intl'

@@ -1,4 +1,4 @@
-import type { TLBounds } from '@tldraw/core'
+import type { TLBounds } from '@krapi0314/tldraw-core'
 import { LINE_HEIGHT } from '~constants'
 import { AlignStyle, ShapeStyles } from '~types'
 import { getTextAlign } from './getTextAlign'

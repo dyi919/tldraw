@@ -1,4 +1,4 @@
-import { TLBounds, TLShape, Utils } from '@tldraw/core'
+import { TLBounds, TLShape, Utils } from '@krapi0314/tldraw-core'
 
 /**
  * Find the bounds of a rectangular shape.

@@ -1,4 +1,4 @@
-import { TLPointerEventHandler, Utils } from '@tldraw/core'
+import { TLPointerEventHandler, Utils } from '@krapi0314/tldraw-core'
 import Vec from '@tldraw/vec'
 import { Arrow } from '~state/shapes'
 import { BaseTool, Status } from '~state/tools/BaseTool'

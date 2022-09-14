@@ -1,4 +1,4 @@
-import { SVGContainer, Utils } from '@tldraw/core'
+import { SVGContainer, Utils } from '@krapi0314/tldraw-core'
 import * as React from 'react'
 import { GHOSTED_OPACITY } from '~constants'
 import { TDShapeUtil } from '~state/shapes/TDShapeUtil'

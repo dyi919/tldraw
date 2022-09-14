@@ -1,5 +1,5 @@
-import type { TLPointerEventHandler } from '@tldraw/core'
-import { Utils } from '@tldraw/core'
+import type { TLPointerEventHandler } from '@krapi0314/tldraw-core'
+import { Utils } from '@krapi0314/tldraw-core'
 import Vec from '@tldraw/vec'
 import { Sticky } from '~state/shapes'
 import { BaseTool, Status } from '~state/tools/BaseTool'

@@ -1,4 +1,4 @@
-import { SVGContainer, TLBounds, Utils } from '@tldraw/core'
+import { SVGContainer, TLBounds, Utils } from '@krapi0314/tldraw-core'
 import {
   intersectBoundsPolygon,
   intersectLineSegmentPolyline,

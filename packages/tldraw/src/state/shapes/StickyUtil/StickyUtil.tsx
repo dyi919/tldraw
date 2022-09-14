@@ -1,4 +1,4 @@
-import { HTMLContainer, TLBounds, Utils } from '@tldraw/core'
+import { HTMLContainer, TLBounds, Utils } from '@krapi0314/tldraw-core'
 import { Vec } from '@tldraw/vec'
 import * as React from 'react'
 import { stopPropagation } from '~components/stopPropagation'

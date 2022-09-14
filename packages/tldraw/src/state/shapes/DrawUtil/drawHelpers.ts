@@ -1,4 +1,4 @@
-import { Utils } from '@tldraw/core'
+import { Utils } from '@krapi0314/tldraw-core'
 import Vec from '@tldraw/vec'
 import { StrokeOptions, getStrokeOutlinePoints, getStrokePoints } from 'perfect-freehand'
 import { getShapeStyle } from '~state/shapes/shared'

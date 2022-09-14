@@ -1,4 +1,4 @@
-import { Utils } from '@tldraw/core'
+import { Utils } from '@krapi0314/tldraw-core'
 import { getStrokeOutlinePoints, getStrokePoints } from 'perfect-freehand'
 import { EASINGS } from '~constants'
 import { getShapeStyle } from '~state/shapes/shared'

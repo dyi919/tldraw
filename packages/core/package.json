@@ -1,11 +1,11 @@
 {
-  "version": "1.15.0",
-  "name": "@tldraw/core",
-  "description": "The tldraw core renderer and utilities.",
-  "author": "@steveruizok",
+  "version": "1.15.5",
+  "name": "@krapi0314/tldraw-core",
+  "description": "Custom @tldraw/core package for multiplayer",
+  "author": "@krapi0314",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tldraw/tldraw.git"
+    "url": "git+https://github.com/krapi0314/yorkie-tldraw.git"
   },
   "license": "MIT",
   "keywords": [
@@ -89,7 +89,7 @@
       "<rootDir>/src/test/"
     ],
     "moduleNameMapper": {
-      "@tldraw/core": "<rootDir>/src",
+      "@krapi0314/tldraw-core": "<rootDir>/src",
       "\\~(.*)": "<rootDir>/src/$1"
     }
   },

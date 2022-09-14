@@ -1,4 +1,4 @@
-import { Utils } from '@tldraw/core'
+import { Utils } from '@krapi0314/tldraw-core'
 import type { TldrawApp } from '~state/TldrawApp'
 import type { TldrawCommand } from '~types'
 

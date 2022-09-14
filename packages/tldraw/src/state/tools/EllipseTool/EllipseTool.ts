@@ -1,4 +1,4 @@
-import { TLBoundsCorner, TLPointerEventHandler, Utils } from '@tldraw/core'
+import { TLBoundsCorner, TLPointerEventHandler, Utils } from '@krapi0314/tldraw-core'
 import Vec from '@tldraw/vec'
 import { Ellipse } from '~state/shapes'
 import { BaseTool, Status } from '~state/tools/BaseTool'

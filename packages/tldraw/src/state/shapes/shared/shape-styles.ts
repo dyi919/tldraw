@@ -1,4 +1,4 @@
-import { Utils } from '@tldraw/core'
+import { Utils } from '@krapi0314/tldraw-core'
 import { AlignStyle, ColorStyle, DashStyle, FontStyle, ShapeStyles, SizeStyle, Theme } from '~types'
 
 const canvasLight = '#fafafa'

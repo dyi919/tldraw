@@ -19,7 +19,7 @@ export function User({ user }: UserProps) {
       ref={rCursor}
       className={`tl-absolute tl-user tl-counter-scaled ${user.session ? '' : 'tl-animated'}`}
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 35 35"
+      viewBox="0 0 60 60"
       fill="none"
       fillRule="evenodd"
     >
@@ -35,6 +35,9 @@ export function User({ user }: UserProps) {
         <path d="m19.751 24.4155-1.844.774-3.1-7.374 1.841-.775z" />
         <path d="m13 10.814v11.188l2.969-2.866.428-.139h4.768z" />
       </g>
+      <text fill={user.color} fontSize="1em" x="" y="40">
+        {user.name}
+      </text>
     </svg>
   )
 }

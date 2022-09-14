@@ -1,4 +1,4 @@
-import type { TLBounds, TLShape } from '@tldraw/core'
+import type { TLBounds, TLShape } from '@krapi0314/tldraw-core'
 import Vec from '@tldraw/vec'
 
 /**

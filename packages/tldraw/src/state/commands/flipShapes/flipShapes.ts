@@ -2,7 +2,7 @@ import { TLDR } from '~state/TLDR'
 import type { TldrawApp } from '~state/TldrawApp'
 import { FlipType } from '~types'
 import type { TldrawCommand } from '~types'
-import { TLBoundsCorner, Utils } from '@tldraw/core'
+import { TLBoundsCorner, Utils } from '@krapi0314/tldraw-core'
 
 export function flipShapes(app: TldrawApp, ids: string[], type: FlipType): TldrawCommand {
   const {

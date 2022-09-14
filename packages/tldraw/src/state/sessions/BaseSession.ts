@@ -1,4 +1,4 @@
-import type { TLPerformanceMode } from '@tldraw/core'
+import type { TLPerformanceMode } from '@krapi0314/tldraw-core'
 import type { TldrawApp } from '~state/TldrawApp'
 import type { SessionType, TldrawCommand, TldrawPatch } from '~types'
 

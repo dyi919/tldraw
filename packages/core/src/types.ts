@@ -46,6 +46,7 @@ export interface TLPageState {
 
 export interface TLUser<T extends TLShape> {
   id: string
+  name: string
   color: string
   point: number[]
   selectedIds: string[]

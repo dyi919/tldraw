@@ -1,4 +1,4 @@
-import type { TLBounds } from '@tldraw/core'
+import type { TLBounds } from '@krapi0314/tldraw-core'
 import * as React from 'react'
 
 interface WithLabelMaskProps {

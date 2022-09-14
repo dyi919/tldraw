@@ -1,4 +1,4 @@
-import { Utils } from '@tldraw/core'
+import { Utils } from '@krapi0314/tldraw-core'
 import { intersectCircleCircle, intersectCircleLineSegment } from '@tldraw/intersect'
 import Vec from '@tldraw/vec'
 import getStroke from 'perfect-freehand'

@@ -1,4 +1,4 @@
-import { TLPageState, Utils } from '@tldraw/core'
+import { TLPageState, Utils } from '@krapi0314/tldraw-core'
 import type { TldrawApp } from '~state'
 import { getIncrementedName } from '~state/commands/shared'
 import type { TDPage, TldrawCommand } from '~types'

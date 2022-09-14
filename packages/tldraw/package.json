@@ -1,11 +1,11 @@
 {
-  "name": "@tldraw/tldraw",
-  "version": "1.20.0",
-  "description": "A tiny little drawing app (editor)",
-  "author": "@steveruizok",
+  "name": "@krapi0314/tldraw",
+  "version": "1.20.5",
+  "description": "Custom @tldraw/tldraw package for multiplayer",
+  "author": "krapi0314",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tldraw/tldraw.git"
+    "url": "https://github.com/krapi0314/yorkie-tldraw.git"
   },
   "license": "MIT",
   "keywords": [
@@ -48,7 +48,7 @@
     "@radix-ui/react-popover": "^1.0.0",
     "@radix-ui/react-tooltip": "^1.0.0",
     "@stitches/react": "^1.2.8",
-    "@tldraw/core": "^1.15.0",
+    "@krapi0314/tldraw-core": "^1.15.5",
     "@tldraw/intersect": "^1.7.1",
     "@tldraw/vec": "^1.7.1",
     "idb-keyval": "^6.1.0",
@@ -64,7 +64,7 @@
     "@swc-node/jest": "^1.4.3",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
-    "@tldraw/core": "*",
+    "@krapi0314/tldraw-core": "^1.15.2",
     "@tldraw/intersect": "*",
     "@tldraw/lfg": "latest",
     "@tldraw/vec": "*",
@@ -100,7 +100,7 @@
       "<rootDir>/dist/"
     ],
     "moduleNameMapper": {
-      "@tldraw/tldraw": "<rootDir>/src",
+      "@krapi0314/tldraw": "<rootDir>/src",
       "\\~(.*)": "<rootDir>/src/$1"
     }
   },

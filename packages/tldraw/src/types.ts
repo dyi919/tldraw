@@ -18,7 +18,7 @@ import type {
   TLSnapLine,
   TLUser,
   TLWheelEventHandler,
-} from '@tldraw/core'
+} from '@krapi0314/tldraw-core'
 import { TDLanguage } from '~translations'
 
 /* -------------------------------------------------- */

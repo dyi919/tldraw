@@ -1,4 +1,4 @@
-import { Utils } from '@tldraw/core'
+import { Utils } from '@krapi0314/tldraw-core'
 import Vec from '@tldraw/vec'
 import * as React from 'react'
 import { EASINGS } from '~constants'

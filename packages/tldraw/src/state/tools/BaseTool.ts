@@ -3,7 +3,7 @@ import {
   TLPinchEventHandler,
   TLPointerEventHandler,
   Utils,
-} from '@tldraw/core'
+} from '@krapi0314/tldraw-core'
 import type { TldrawApp } from '~state/TldrawApp'
 import { TDEventHandler, TDToolType } from '~types'
 

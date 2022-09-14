@@ -243,8 +243,8 @@ export const TLCSS = css`
   .tl-user {
     left: calc(-15px * var(--tl-scale));
     top: calc(-15px * var(--tl-scale));
-    height: calc(35px * var(--tl-scale));
-    width: calc(35px * var(--tl-scale));
+    height: calc(60px * var(--tl-scale));
+    width: calc(60px * var(--tl-scale));
     transform: scale(var(--tl-scale));
     pointer-events: none;
     will-change: transform;

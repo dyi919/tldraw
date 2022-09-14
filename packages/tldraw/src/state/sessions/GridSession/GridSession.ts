@@ -1,4 +1,4 @@
-import { TLBounds, TLPageState, Utils } from '@tldraw/core'
+import { TLBounds, TLPageState, Utils } from '@krapi0314/tldraw-core'
 import { Vec } from '@tldraw/vec'
 import type { TldrawApp } from '~state/TldrawApp'
 import { BaseSession } from '~state/sessions/BaseSession'

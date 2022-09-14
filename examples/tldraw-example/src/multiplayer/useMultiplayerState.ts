@@ -48,8 +48,10 @@ export function useMultiplayerState(roomId: string) {
         const lShapes = rLiveShapes.current
         const lBindings = rLiveBindings.current
         const lAssets = rLiveAssets.current
+        console.log(assets)
 
         if (!(lShapes && lBindings && lAssets)) return
+        console.log(assets)
 
         Object.entries(shapes).forEach(([id, shape]) => {
           if (!shape) {
