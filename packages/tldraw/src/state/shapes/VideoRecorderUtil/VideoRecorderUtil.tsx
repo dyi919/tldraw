@@ -13,6 +13,8 @@ import { TLDR } from '~state/TLDR'
 import { getTextSvgElement } from '../shared/getTextSvgElement'
 import { stopPropagation } from '~components/stopPropagation'
 import { relative } from 'path'
+import { Modal } from 'react-bootstrap'
+import useModal from './useModal'
 
 type T = VideoRecorderShape
 type E = HTMLDivElement
@@ -188,6 +190,15 @@ export class VideoRecorderUtil extends TDShapeUtil<T, E> {
       //     : `0.5px 0.5px 2px rgba(255, 255, 255,.5)`,
       // }
 
+      const {
+        isOpen: isRecordOpen,
+        size,
+        className,
+        scroll,
+        toggleModal: toggleRecord,
+        openModalWithClass,
+      } = useModal()
+
       return (
         <HTMLContainer ref={ref} {...events}>
           <StyledVideoContainer
@@ -225,9 +236,25 @@ export class VideoRecorderUtil extends TDShapeUtil<T, E> {
                   cursor: 'pointer',
                 }}
                 onClick={() => {
-                  alert()
+                  alert('test')
+                  console.log('clicked')
+                  openModalWithClass('modal-full-width')
                 }}
               />
+              <Modal
+                show={isRecordOpen}
+                onHide={toggleRecord}
+                dialogClassName={className}
+                size={size}
+                scrollable={scroll}
+              >
+                <Modal.Body>
+                  <Modal.Header onHide={toggleRecord} closeButton>
+                    <h4 className="modal-title">Record</h4>
+                  </Modal.Header>
+                  <p>test</p>
+                </Modal.Body>
+              </Modal>
             </div>
             {/* <StyledText ref={rText} isEditing={isEditing} alignment={shape.style.textAlign}>
               {shape.text}&#8203;
