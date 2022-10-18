@@ -1,6 +1,6 @@
 {
   "name": "@dyi919/tldraw",
-  "version": "1.20.6",
+  "version": "1.20.7",
   "description": "Custom @tldraw/tldraw package for Asyncrum",
   "author": "dyi919",
   "repository": {
