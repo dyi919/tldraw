@@ -1,11 +1,11 @@
 {
-  "name": "@krapi0314/tldraw",
-  "version": "1.20.5",
-  "description": "Custom @tldraw/tldraw package for multiplayer",
-  "author": "krapi0314",
+  "name": "@dyi919/tldraw",
+  "version": "1.20.6",
+  "description": "Custom @tldraw/tldraw package for Asyncrum",
+  "author": "dyi919",
   "repository": {
     "type": "git",
-    "url": "https://github.com/krapi0314/yorkie-tldraw.git"
+    "url": "https://github.com/dyi919/tldraw.git"
   },
   "license": "MIT",
   "keywords": [
@@ -40,6 +40,7 @@
     "react-dom": ">=16.8"
   },
   "dependencies": {
+    "@krapi0314/tldraw-core": "^1.15.5",
     "@radix-ui/react-alert-dialog": "^1.0.0",
     "@radix-ui/react-context-menu": "^1.0.0",
     "@radix-ui/react-dialog": "^1.0.0",
@@ -48,9 +49,8 @@
     "@radix-ui/react-popover": "^1.0.0",
     "@radix-ui/react-tooltip": "^1.0.0",
     "@stitches/react": "^1.2.8",
-    "@krapi0314/tldraw-core": "^1.15.5",
     "@tldraw/intersect": "^1.7.1",
-    "@tldraw/vec": "^1.7.1",
+    "@tldraw/vec": "^1.8.0",
     "idb-keyval": "^6.1.0",
     "lz-string": "^1.4.4",
     "perfect-freehand": "^1.1.0",
@@ -61,10 +61,10 @@
     "zustand": "^3.6.9"
   },
   "devDependencies": {
+    "@krapi0314/tldraw-core": "^1.15.2",
     "@swc-node/jest": "^1.4.3",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
-    "@krapi0314/tldraw-core": "^1.15.2",
     "@tldraw/intersect": "*",
     "@tldraw/lfg": "latest",
     "@tldraw/vec": "*",
@@ -100,7 +100,7 @@
       "<rootDir>/dist/"
     ],
     "moduleNameMapper": {
-      "@krapi0314/tldraw": "<rootDir>/src",
+      "@dyi919/tldraw": "<rootDir>/src",
       "\\~(.*)": "<rootDir>/src/$1"
     }
   },
