@@ -1,6 +1,6 @@
 import Vec from '@tldraw/vec'
 import type { TLPointerEventHandler } from '@tldraw/core'
-import { Utils } from '@tldraw/core'
+import { Utils } from '@krapi0314/core'
 import { VideoRecorder } from '~state/shapes'
 import { SessionType, TDShapeType } from '~types'
 import { BaseTool, Status } from '../BaseTool'

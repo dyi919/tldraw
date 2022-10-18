@@ -50,6 +50,7 @@
     "@radix-ui/react-popover": "^1.0.0",
     "@radix-ui/react-tooltip": "^1.0.0",
     "@stitches/react": "^1.2.8",
+    "@tldraw/core": "^1.19.0",
     "@tldraw/intersect": "^1.7.1",
     "@tldraw/vec": "^1.8.0",
     "idb-keyval": "^6.1.0",
