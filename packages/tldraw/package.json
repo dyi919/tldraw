@@ -40,6 +40,7 @@
     "react-dom": ">=16.8"
   },
   "dependencies": {
+    "@iconify/react": "^4.0.0",
     "@krapi0314/tldraw-core": "^1.15.5",
     "@radix-ui/react-alert-dialog": "^1.0.0",
     "@radix-ui/react-context-menu": "^1.0.0",

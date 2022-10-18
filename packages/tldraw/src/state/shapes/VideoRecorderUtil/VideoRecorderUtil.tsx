@@ -12,7 +12,6 @@ import { GHOSTED_OPACITY } from '~constants'
 import { TLDR } from '~state/TLDR'
 import { getTextSvgElement } from '../shared/getTextSvgElement'
 import { stopPropagation } from '~components/stopPropagation'
-import { redoItem } from 'yjs/dist/src/internals'
 import { relative } from 'path'
 
 type T = VideoRecorderShape
