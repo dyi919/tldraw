@@ -5,6 +5,7 @@ import {
   Pencil1Icon,
   Pencil2Icon,
   TextIcon,
+  VideoIcon,
 } from '@radix-ui/react-icons'
 import * as React from 'react'
 import { useIntl } from 'react-intl'
@@ -56,6 +57,10 @@ export const PrimaryTools = React.memo(function PrimaryTools() {
 
   const uploadMedias = React.useCallback(async () => {
     app.openAsset()
+  }, [app])
+
+  const selectVideoRecorderTool = React.useCallback(() => {
+    app.selectTool(TDShapeType.VideoRecorder)
   }, [app])
 
   const panelStyle = dockPosition === 'bottom' || dockPosition === 'top' ? 'row' : 'column'
@@ -124,8 +129,21 @@ export const PrimaryTools = React.memo(function PrimaryTools() {
       >
         <Pencil2Icon />
       </ToolButtonWithTooltip>
-      <ToolButtonWithTooltip label={intl.formatMessage({ id: 'image' })} onClick={uploadMedias} id="TD-PrimaryTools-Image">
+      <ToolButtonWithTooltip
+        label={intl.formatMessage({ id: 'image' })}
+        onClick={uploadMedias}
+        id="TD-PrimaryTools-Image"
+      >
         <ImageIcon />
+      </ToolButtonWithTooltip>
+      <ToolButtonWithTooltip
+        kbd={'-'}
+        label={intl.formatMessage({ id: 'video-recorder' })}
+        onClick={selectVideoRecorderTool}
+        isActive={activeTool === TDShapeType.VideoRecorder}
+        id="TD-PrimaryTools-Video"
+      >
+        <VideoIcon />
       </ToolButtonWithTooltip>
     </StyledPanel>
   )

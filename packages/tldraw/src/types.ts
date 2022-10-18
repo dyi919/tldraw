@@ -225,6 +225,7 @@ export type TDToolType =
   | TDShapeType.Line
   | TDShapeType.Arrow
   | TDShapeType.Sticky
+  | TDShapeType.VideoRecorder
 
 export type Easing =
   | 'linear'
@@ -294,6 +295,7 @@ export enum TDShapeType {
   Group = 'group',
   Image = 'image',
   Video = 'video',
+  VideoRecorder = 'video-recorder'
 }
 
 export enum Decoration {
@@ -393,6 +395,15 @@ export interface StickyShape extends TDBaseShape {
   text: string
 }
 
+export interface VideoRecorderShape extends TDBaseShape {
+  type: TDShapeType.VideoRecorder
+  size: number[]
+  isModalOpen: boolean
+  label?: string
+  labelPoint?: number[]
+  src?: string
+}
+
 // The shape created when multiple shapes are grouped
 export interface GroupShape extends TDBaseShape {
   type: TDShapeType.Group
@@ -412,6 +423,7 @@ export type TDShape =
   | StickyShape
   | ImageShape
   | VideoShape
+  | VideoRecorderShape
 
 /* ------------------ Shape Styles ------------------ */
 
