@@ -241,6 +241,7 @@ export class VideoRecorderUtil extends TDShapeUtil<T, E> {
                   openModalWithClass('modal-full-width')
                 }}
               />
+              <video src=""></video>
               <Modal
                 show={isRecordOpen}
                 onHide={toggleRecord}
