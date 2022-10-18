@@ -227,6 +227,11 @@ export class VideoRecorderUtil extends TDShapeUtil<T, E> {
                 top: '50%',
                 transform: 'translate(-50%, -50%)',
               }}
+              onClick={() => {
+                alert('test')
+                console.log('clicked')
+                openModalWithClass('modal-full-width')
+              }}
             >
               <Icon
                 icon="bi:record-circle"
@@ -235,13 +240,7 @@ export class VideoRecorderUtil extends TDShapeUtil<T, E> {
                 style={{
                   cursor: 'pointer',
                 }}
-                onClick={() => {
-                  alert('test')
-                  console.log('clicked')
-                  openModalWithClass('modal-full-width')
-                }}
               />
-              <video src=""></video>
               <Modal
                 show={isRecordOpen}
                 onHide={toggleRecord}
